@@ -1,10 +1,10 @@
 h1{
     text-align: center;
+    position: center;
 }
 
 button{
     text-align: center;
-    display: flex;
     border-radius: 20px;
     box-shadow: 100px;
     transition: 0.8;
@@ -20,5 +20,5 @@ body{
 }
 
 .flex{
-    display: block;
+    display: flex;
 }

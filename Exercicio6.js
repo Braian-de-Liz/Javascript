@@ -1,3 +1,3 @@
 function Vogais() {
-    let letras [] = prompt("digiteb uma letra")
+    let letras  = prompt("digite uma letra")
 }
