@@ -8,17 +8,21 @@ button{
     border-radius: 20px;
     box-shadow: 100px;
     transition: 0.8;
+    background-color: antiquewhite;
+    cursor: pointer;
 }
 
-button a:hover {
+button::content {
     color: rgb(128, 255, 0);
 }
 
-body{
-    background-color: darkcyan;
-    border-radius: 10px;
-}
+
+button a:hover 
 
 .flex{
     display: flex;
+}
+
+body {
+    background-color: rgb(60, 200, 220);
 }
