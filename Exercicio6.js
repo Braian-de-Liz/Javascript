@@ -1,9 +1,28 @@
 function Vogais() {
-    let letras []  = prompt("digite uma letra")
+    let letras = [];
 
-    if (letras == 'a', 'o', 'e', 'i', 'u') {
-        alert("sua letra é uma vogal")
-    } else {
-        alert("sua letra é uma consoante")
-    }
+     letras = [[
+        "a"],
+        ["e"],
+        ["o"], 
+        ["i"], 
+        ["u"],
+    ]
+
+    let escolha = "";
+
+    escolha = prompt("Digite sua letra")
+
+    letras.forEach(vogal => {
+        if(escolha == vogal){
+            alert("é uma vogal");
+        }else{
+            alert("é uma consoante");
+        }
+    });
+    // if (letras == ) {
+    //     alert("sua letra é uma vogal")
+    // } else {
+    //     alert("sua letra é uma consoante")
+    // }
 }
